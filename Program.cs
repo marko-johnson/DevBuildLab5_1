@@ -10,8 +10,6 @@ namespace Lab5_1_RPG
         protected int Strength;
         protected int Intelligence;
 
-
-
         // Constructor
         public GameCharacter(string _Name, int _Strength, int _Intelligence)
         {
@@ -23,10 +21,6 @@ namespace Lab5_1_RPG
             SetStrength(_Strength);
             SetIntelligence(_Intelligence);
         }
-
-
-
-
 
         // Getters and Setters for Name
         public string GetName()
@@ -110,10 +104,6 @@ namespace Lab5_1_RPG
             Console.WriteLine($"\nWizard Name: {Name} \nStrength: {Strength}, \nIntelligence: {Intelligence} \nMagical Energy: {magicalEnergy} \nSpell Number: {spellNumber}");
         }
     }
-
-
-
-
 
     class Program
     {
